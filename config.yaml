@@ -1,0 +1,4 @@
+api_key: API_KEY # Set the Tracker.gg API key here
+players: # List of players
+  - player1
+  - player2
