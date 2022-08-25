@@ -10,8 +10,9 @@ with open("config.yaml", "r") as f:
 
 api_key = config['api_key']
 players = config['players']
+loglevel = config['loglevel']
 
-logging.basicConfig(level=logging.DEBUG)
+logging.basicConfig(level=loglevel)
 header = {"TRN-Api-Key": api_key}
 players = players
 
