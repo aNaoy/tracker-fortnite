@@ -15,8 +15,6 @@ logging.basicConfig(level=logging.DEBUG)
 header = {"TRN-Api-Key": api_key}
 players = players
 
-print(header, players)
-
 def main():
     logging.info("Tracking starting...")
     for player in players:
